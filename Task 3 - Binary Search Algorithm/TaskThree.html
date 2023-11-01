@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task Three</title>
+<style>
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+</style>
+<script src="TaskThree.js"></script>
+</head>
+<body>
+<label>Name</label>
+<input type="text" id="nameInput" />
+<br />
+<label>Height</label>
+<input type="number" id="heightInput" />
+<br />
+<button type="button" onclick="saveAthlete()">Save Athlete</button>
+<button type="button" onclick="findAthlete(document.getElementById('nameInput').value)">Find Athlete</button>
+<br />
+<br />
+<p id="result"></p>
+</body>
+</html>
